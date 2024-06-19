@@ -1,0 +1,44 @@
+/* public/css/navbar.css */
+
+/* Navbar brand styling */
+.navbar-brand {
+    font-size: 1.8rem; /* Adjust as needed */
+    font-weight: bold;
+    color: #333; /* Dark color */
+}
+
+.navbar-brand:hover {
+    color: #555; /* Slightly lighter on hover */
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #333; /* Dark color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #555; /* Slightly lighter on hover */
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+/* Toggler button */
+.navbar-toggler {
+    border-color: #333; /* Dark color */
+}
+
+.navbar-toggler-icon {
+    background-color: #333; /* Dark color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+    .navbar-nav.ml-auto {
+        margin-left: 0;
+    }
+}
